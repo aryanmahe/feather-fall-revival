@@ -63,7 +63,7 @@ export const Game = () => {
       
       // Add new pipe if needed
       const lastPipe = newPipes[newPipes.length - 1];
-      if (!lastPipe || lastPipe.x < gameWidth - 200) {
+      if (!lastPipe || lastPipe.x < gameWidth - 300) {
         const newPipe: PipeData = {
           id: lastPipeId + 1,
           x: gameWidth,
