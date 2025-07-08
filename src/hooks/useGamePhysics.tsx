@@ -8,7 +8,7 @@ export const useGamePhysics = (gameHeight: number) => {
   const positionRef = useRef(gameHeight / 2);
   
   const gravity = 0.25;
-  const jumpStrength = -8;
+  const jumpStrength = -6;
   
   const jump = useCallback(() => {
     velocityRef.current = jumpStrength;
