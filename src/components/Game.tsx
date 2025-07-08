@@ -22,7 +22,7 @@ export const Game = () => {
   
   const gameWidth = 400;
   const gameHeight = 600;
-  const pipeGap = 120;
+  const pipeGap = 150;
   const pipeWidth = 60;
   
   const { birdY, birdVelocity, jump, resetBird, updateBird } = useGamePhysics(gameHeight);
